@@ -1,7 +1,5 @@
 site_name: Infra Troubleshooting Runbook
-plugins:
-  - search
-  - awesome-pages
+
 theme:
   name: material
   features:
