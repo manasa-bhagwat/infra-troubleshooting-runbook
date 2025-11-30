@@ -1,0 +1,28 @@
+# OS related
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python caches
+__pycache__/
+*.pyc
+
+# MkDocs build directory
+site/
+
+# Logs
+*.log
+
+# Env/configs
+.env
+*.secret
+*.tfstate
+*.tfstate.backup
+
+# IDE stuff
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp

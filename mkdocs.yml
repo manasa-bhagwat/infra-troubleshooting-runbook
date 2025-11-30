@@ -1,0 +1,30 @@
+site_name: Infra Troubleshooting Runbook
+plugins:
+  - search
+  - awesome-pages
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Templates:
+      - Runbook Template: templates/runbook-template.md
+  - Git:
+      - Common Issues: git/common-issues.md
+      - Incidents: 
+          - git/incidents/
+  - Linux:
+      - Incidents: linux/incidents/
+  - Docker: docker/index.md
+  - Kubernetes: kubernetes/index.md
+  - Terraform: terraform/index.md
+  - CI/CD: cicd/index.md
+  - Networking: networking/index.md
+  - Cloud: cloud/index.md
+  - vmdeploy Incidents: vmdeploy/incidents/
+
