@@ -15,9 +15,8 @@ nav:
   - Templates:
       - Runbook Template: templates/runbook-template.md
   - Git:
-      - Common Issues: git/common-issues.md
-      - Incidents: 
-          - git/incidents/
+      - Incidents:
+          - Wrong Branch Typo: git/incidents/git-wrong-branch-typo.md
   - Linux:
       - Incidents: linux/incidents/
   - Docker: docker/index.md
